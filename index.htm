@@ -1,0 +1,413 @@
+<html>
+<head>
+<title>Tytuł</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="interface.css" />
+<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<h1>H1</h1>
+<h2 id="abc">H2</h2>
+<h3>H3</h3>
+<h4>H4</h4>
+<h5>H5</h5>
+<h6>H6</h6>
+<p>B <b>Pogrubienie</b></p>
+<p>S <s>Przekrelenie</s></p>
+<p>U <u>Podkreślenie</u></p>
+<p>I <i>Kur</i></p>
+<p>Nowa br<br /> linia</p>
+<p>Indeks<sup>sup</sup><sub>sub</sub></p>
+<p>Jestem <strong>Strong</strong></p>
+<p><em>Em?</em></p>
+<p><cite>"Cytuję siebie samego" ~ Ja i cite</cite></p>
+<p><q>"Cytuję siebie samego" ~ Ja i q</q></p>
+<p><pre> Tekst PREformatowany
+body {
+background-image: url(http://i0.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg);
+background-repeat: no-repeat;
+<!-- komentarz -->
+background-size:cover;
+}
+table {
+    border: 0px solid black;
+	
+}
+p {
+    font-size: 14px;
+    color: #fff;
+    
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}</pre>
+<p><address>Address <br />
+Czarny Stok<br />
+Ulica ABC mieszkanie 1<br />
+00-000 Czarny Stok</address>
+<table>
+<th>
+<p>lista nieporządkowana - ul i li
+<ul style="list-style-image: url(zasoby/st.png)">
+	<li>Pepsi
+	<li>Pepsi MAX
+	<li>Pepsi Light
+</ul>
+</th>
+<th>
+
+lista porządkowana - ol i li
+<ol type="1">
+	<li>Pepsi</li>
+	<li>Pepsi MAX</li>
+	<li>Pepsi Light</li>
+</ol>
+</th>
+</table>
+<ol type="a">
+	<li>Pepsi</li>
+	<li>Pepsi MAX</li>
+	<li>Pepsi Light</li>
+</ol>
+<ol type="i">
+	<li>Pepsi</li>
+	<li>Pepsi MAX</li>
+	<li>Pepsi Light</li>
+</ol>
+<ol type="I">
+	<li>Pepsi</li>
+	<li>Pepsi MAX</li>
+	<li>Pepsi Light</li>
+</ol>
+lista definicji - dl + dt + dd
+<dl>
+	<dt>Pepsi</dt>
+			<dd> - produkt firmy Pepsi Co.</dd>
+	<dt>Pepsi MAX</dt>
+			<dd> - inny produkt firmy Pepsi Co.</dd>
+	<dt>Pepsi Light</dt>
+			<dd> - jeszcze inny produkt firmy Pepsi Co.</dd>
+</dl>
+<ul style="list-style-style: circle">
+	<li>Pepsi
+	<li>Pepsi MAX
+	<li><a href="#abc">Pepsi Light</a>
+	<ol type="1">
+	<li>Pepsi Light jest dobre</li>
+	<li>Pepsi Light jest light</li>
+	<li>Pepsi Light jest napojem</li>
+</ol>
+</ul>
+<!-- ty no nie wiem jak tam twoja szmaciura jebana zrogowaciala niedzwiedzica co sie kurwi 
+pod mostem za wojaka i siada kurwa na butle od vanisha i kurwe w taczce pijana wozili po 
+osiedlu wiesz o co chodzi mnie nie przegadasz bo mi sperme z paly zjadasz frajerze zrogowacialy 
+frajerska chmuro chuj ci na matule i jebac ci starego﻿   -->
+<p><a href="https://www.youtube.com/watch?v=KUYrdEYOzP0">Se byś poszukał, a nie pytał głupio.</a></p>
+<p><a href="#abc">ty no nie wiem</a></p>
+<p><a href="#abc"><img src="zasoby/st.png" ></img></a></p>
+<p><button onClick="button2()">Zabij Dziecko</button><br /></p>
+<!--
+<img src="zasoby/meme.png"/>
+<p><img src="zasoby/meme.png"/><br /></p>
+<p>
+Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu <br />
+Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu <br />
+Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu <br />
+Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu <br />
+Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu <br />
+Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana <img src="zasoby/meme.png" width="250" height="400"/> Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu <br />
+Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu <br />
+Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu <br />
+Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu <br />
+Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu <br />
+Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu <br />
+Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu <br />
+Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu Ściana Tekstu <br />
+<a href="http://google.com"><img src="zasoby/meme.png" /></a>
+</p>
+-->
+<table>
+<tr>
+<td>1 
+<td>2
+<td>3
+</tr>
+<tr>
+<td>4 
+<td>5
+<td>6
+</tr>
+<tr>
+<td>7
+<td>8
+<td>9
+</tr>
+</table>
+
+<table>
+<tr>
+<td rowspan="3">1 
+<td>2
+<td>3
+</tr>
+<tr>
+<td>4 
+<td>5
+<td>6
+</tr>
+<tr>
+<td colspan="3">777 888 999
+</tr>
+</table>
+
+<table style="border: 1px solid black">
+<tr>
+<td>1 
+<td>2
+<td>3
+<td>4
+</tr>
+<tr>
+<td colspan="4">1234
+</tr>
+<tr>
+<td colspan="3">123
+<td>4
+</tr>
+<tr>
+<td>1
+<td colspan="2">23
+<td>4
+</tr>
+</table>
+
+<table>
+<tr>
+<td>1 </td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>1 </td>
+<td rowspan="2">2</td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>1</td>
+<td>3</td>
+<td>4</td>
+</tr>
+</table>
+<br />
+<br />
+
+<table>
+<tr>
+<td rowspan="5">1</td>
+<td colspan="5">2</td>
+</tr>
+<tr>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td rowspan="5">3</td>
+</tr>
+<tr>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr>
+<td colspan="5">4</td>
+</tr>
+
+
+
+</table>
+<br />
+<br />
+<br />
+<br />
+
+<table>
+<tr>123</tr>
+<th>aaa</th>
+<th>bbb</th>
+
+
+<tr>123</tr>
+<th>aaa</th>
+<th>bbb</th>
+</table>
+<br />
+<br />
+<br />
+<br />
+
+
+<table>
+<thead>
+<th>Poniedziałek</th>
+<th>Wtorek</th>
+<th>Środa</th>
+<th>Czwartek</th>
+<th>Piątek</th>
+</thead>
+<tr>
+<th>Polski</th>
+<th rowspan="2">Apl. Int</th>
+<th>Sieci</th>
+<th rowspan="2">Matematyka</th>
+<th>Ang.</th>
+</tr>
+<tr>
+<th>WF</th>
+<th>Montaż</th>
+
+<th>UTK</th>
+</tr>
+<tr>
+<th colspan="4">Polski</th>
+<th>Historia</th>
+</tr>
+<tr>
+<th rowspan="2" colspan="2">Apl. Int</th>
+<th>Montaż</th>
+<th rowspan="2">Matematyka</th>
+<th>Ang.</th>
+</tr>
+<tr>
+<th>Sieci</th>
+
+<th>UTK</th>
+</tr>
+</table>
+
+<br />
+<br />
+<p>
+
+
+<p>
+<input type="text" name="haslo_kani" value="abc123"/>					<br />
+<input type="password" name="haslo_kani_2" value="abc123"/>					<br />
+<textarea name="haslo_kani" value="abc123">abc123</textarea>					<br />
+<input type="radio" name="wybierz_haslo_kani" value="1"/>abc123					<br />
+<input type="radio" name="wybierz_haslo_kani" checked value="1"/>123abc					<br />
+<input type="radio" name="wybierz_haslo_kani" value="1"/>rokoko1700					<br />
+<select name="wybierz_haslo_kani_2">
+<option value="1">abc123</option>
+<option value="2">123abc</option>
+<option value="3"selected>rokoko1700</option>
+</select>
+<input type="text" name="haslo_kani" value="wyłączone" disabled />		
+<input type="text" name="haslo_kani" value="do_czytania" readonly />
+<input type="submit" name="wyslij" value="wyslij" />	
+<input type="file" name="cos"/>			
+<input type="hidden" name="gowno"/>					
+</p>
+<p>
+<fieldset>
+<legend>Twoje dane</legend>
+<label for="formularz_test">Numer karty</label><br />
+<input id="formularz_test" type="text" /><br />
+<label for="formularz_pass">Hasło</label><br />
+<input id="formularz_pass" type="password" /><br />
+<label for="plec">Wybierz płeć</label><br />
+<input type="radio" name="plec" value="1"/>0					<br />
+<input type="radio" name="plec" checked value="1"/>1					<br />
+<input type="radio" name="plec" value="1"/>					<br />
+</fieldset>
+</p>
+<p>
+<br /><br /><br /><br /><br /><br /><br />
+<fieldset>
+<legend>twoje dane osobowe</legend>
+<label for="formularz_test">Imie</label><input type="text" name="imie" /> <br />
+<label for="formularz_test">Nazwisko</label><input type="text" name="nazwisko" /><br />
+<label for="formularz_test">PESEL (max 11 znakow) </label><input type="text" name="pesel" /><br />
+<label for="formularz_test">Data urodzenia: </label>
+<select name="dzien urodzenia">
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+</select>
+<select name="miesiac urodzenia">
+<option value="1">marzec</option>
+<option value="2">kwiecien</option>
+<option value="3">maj</option>
+</select>
+<select name="rok urodzenia">
+<option value="1">1991</option>
+<option value="2" selected >1992</option>
+<option value="3">1993</option>
+</select>
+</fieldset>
+<fieldset>
+<legend>twoje zainteresowania</legend>
+<input type="checkbox" name="1" value="12" /> koty <br />
+<input type="checkbox" name="1" value="13" /> psy <br />
+<input type="checkbox" name="1" value="14" /> latawce <br />
+<input type="checkbox" name="1" value="15" /> balbalabla <br />
+</fieldset>
+<fieldset>
+<legend>ulubiony przedmiot</legend>
+<input type="radio" name="2" value="12" /> matma <br />
+<input type="radio" name="2" value="12" /> matma <br />
+<input type="radio" name="2" value="12" /> matma <br />
+<input type="radio" name="2" value="12" /> matma <br />
+<input type="radio" name="2" value="12" /> matma <br />
+<input type="radio" name="2" value="12" /> matma <br />
+<input type="radio" name="2" value="12" /> matma <br />
+<input type="radio" name="2" value="12" /> matma <br />
+<input type="radio" name="2" value="12" /> matma <br />
+<input type="radio" name="2" value="12" /> matma <br />
+<input type="radio" name="2" value="12" /> matma <br />
+<input type="radio" name="2" value="12" /> matma <br />
+<input type="radio" name="2" value="12" /> matma <br />
+</fieldset>
+<input type="submit" value="wysylka">
+<br />
+<iframe src="https://www.zsti.pl " height="500" width="500"><p>Ta wiadomość nie powinna tutaj się pojawić. Powiedz mi proszę, jeśli to przeczytasz.</p><iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+</body>
+</html>

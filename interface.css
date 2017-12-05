@@ -1,0 +1,19 @@
+body {
+background-image: url(http://i0.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+}
+th, td {
+    border: 1px solid black;
+	
+}
+table {
+    border: 2px solid green;
+	
+}
+.fajnytekst {
+    font-size: 14px;
+    color: #fff;
+    
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
